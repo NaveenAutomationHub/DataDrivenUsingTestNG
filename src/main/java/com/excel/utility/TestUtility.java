@@ -7,14 +7,10 @@ public class TestUtility {
 	
 	public static ArrayList<Object[]> getdatafromExcel(){
 		
-		
-		
 		ArrayList<Object []>  myData = new ArrayList<Object[]>();
 		
-
 		try{
-			
-		
+				
 		reader = new Xls_Reader(System.getProperty("user.dir")+"/src/main/java/com/testdata/PassportTestData.xlsx");
 		}catch(Exception e){
 			
