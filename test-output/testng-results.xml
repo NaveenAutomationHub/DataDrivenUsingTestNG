@@ -1,38 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9368" started-at="2018-06-12T10:56:18Z" finished-at="2018-06-12T10:56:27Z">
+  <suite name="Default suite" duration-ms="27773" started-at="2018-07-26T12:48:38Z" finished-at="2018-07-26T12:49:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9368" started-at="2018-06-12T10:56:18Z" finished-at="2018-06-12T10:56:27Z">
-      <class name="com.datadriven.passportpage.tests.Passporttest2">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.datadriven.passportpage.tests.Passporttest2@5e3a8624]" name="setUp" is-config="true" duration-ms="7960" started-at="2018-06-12T16:26:18Z" finished-at="2018-06-12T16:26:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="fillingtheForm(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.passportpage.tests.Passporttest2@5e3a8624]" name="fillingtheForm" duration-ms="970" started-at="2018-06-12T16:26:26Z" data-provider="getdatafromexcel" finished-at="2018-06-12T16:26:27Z">
+    <test name="Default test" duration-ms="27773" started-at="2018-07-26T12:48:38Z" finished-at="2018-07-26T12:49:06Z">
+      <class name="com.datadriven.freecrm.CreateNewCompany2">
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:1, instance:com.datadriven.freecrm.CreateNewCompany2@6f7fd0e6]" name="loginTest" duration-ms="13968" started-at="2018-07-26T18:18:39Z" data-provider="getDataFromExcelforLogin" finished-at="2018-07-26T18:18:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Rajesh]]>
+                <![CDATA[naveendommata]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Reddy]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[12/41/99]]>
+                <![CDATA[Welcome@123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fillingtheForm -->
-      </class> <!-- com.datadriven.passportpage.tests.Passporttest2 -->
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:1, instance:com.datadriven.freecrm.CreateNewCompany2@6f7fd0e6]" name="loginTest" duration-ms="13385" started-at="2018-07-26T18:18:52Z" data-provider="getDataFromExcelforLogin" finished-at="2018-07-26T18:19:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[naveendommata]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Welcome@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.datadriven.freecrm.CreateNewCompany2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,8 +3,8 @@ package com.excel.utility;
 import java.util.ArrayList;
 
 public class TestUtility {
-	static Xls_Reader reader;
 	
+	static Xls_Reader reader;
 	public static ArrayList<Object[]> getdatafromExcel(){
 		
 		ArrayList<Object []>  myData = new ArrayList<Object[]>();
@@ -25,7 +25,7 @@ public class TestUtility {
 			String loginid = reader.getCellData("RegistrationData", "loginID", rowNum);
 			String password = reader.getCellData("RegistrationData", "password", rowNum);
 			String confirmpassword = reader.getCellData("RegistrationData", "confirmPassword", rowNum);
-			
+
 			
 			Object ob[]={givenname,surname,dob,emailid,loginid,password,confirmpassword};
 			

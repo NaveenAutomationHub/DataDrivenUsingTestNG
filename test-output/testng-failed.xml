@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.datadriven.passportpage.tests.Passporttest2">
+      <class name="com.datadriven.freecrm.CreateNewCompany2">
         <methods>
-          <include name="fillingtheForm"/>
+          <include name="loginTest" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- com.datadriven.passportpage.tests.Passporttest2 -->
+      </class> <!-- com.datadriven.freecrm.CreateNewCompany2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
